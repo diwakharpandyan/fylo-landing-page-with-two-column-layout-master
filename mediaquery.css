@@ -1,0 +1,113 @@
+@media (max-width: 1020px) {
+  body {
+    font-size: 16px;
+  }
+  header {
+    padding: 1rem;
+  }
+  .logo-container {
+    height: 1.5rem;
+    width: 5rem;
+  }
+  .header-logo {
+    width: 100%;
+  }
+  header li {
+    margin-right: 1rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    margin-bottom: 3rem;
+    padding: 2rem 2rem;
+  }
+  .hero-text > * {
+    margin-bottom: 1rem;
+  }
+  h1 {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  p {
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .input-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-container button {
+    margin-left: 0;
+    padding: 0.7rem 7rem;
+  }
+  .input-container input {
+    padding: 0.7rem 9rem 0.7rem 0.7rem;
+    margin-bottom: 1rem;
+  }
+  .testimonial {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem 2rem 4rem 2rem;
+  }
+  .testimonial h1 {
+    font-size: 1.1rem;
+  }
+  .testimonial-image-container {
+    margin-bottom: 2rem;
+  }
+  .testimonial p {
+    text-align: start;
+  }
+  .testimonial-link {
+    text-align: center;
+  }
+  .section-2 {
+    width: 100%;
+  }
+  .section-2-testimonial-text {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  .signup {
+    flex-direction: column;
+  }
+  .signup-text {
+    flex: 1;
+    padding: 3rem 2rem;
+  }
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .signup-form button {
+    padding: 0.8rem 5rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 2px 5px rgb(70, 70, 70);
+  }
+  .signup-form {
+    padding: 0 2rem 3rem 2rem;
+  }
+  .footer-nav-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  footer {
+    padding: 3rem 2rem;
+  }
+  .social-media-icons-container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1430px) {
+  .input-container button {
+    margin-left: 0.5rem;
+    padding: 0.7rem 2rem;
+  }
+  .section-2 {
+    width: 80%;
+  }
+}
