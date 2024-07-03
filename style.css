@@ -55,9 +55,10 @@ p {
 }
 .input-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .input-container button {
-  margin-left: 1rem;
   border: none;
   color: white;
   font-family: "Open Sans", sans-serif;
@@ -71,6 +72,7 @@ button:hover {
 .input-container input {
   padding: 0.7rem 7rem 0.7rem 0.7rem;
   border-radius: 0.2rem;
+  margin-right: 1rem;
 }
 .testimonial {
   display: flex;

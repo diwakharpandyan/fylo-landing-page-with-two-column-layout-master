@@ -38,14 +38,17 @@
   .input-container {
     flex-direction: column;
     align-items: center;
+    width: 20rem;
   }
   .input-container button {
-    margin-left: 0;
-    padding: 0.7rem 7rem;
+    padding: 0.7rem 5rem;
+    width: 100%;
   }
   .input-container input {
     padding: 0.7rem 9rem 0.7rem 0.7rem;
     margin-bottom: 1rem;
+    width: 100%;
+    margin-right: 0;
   }
   .testimonial {
     flex-direction: column-reverse;
@@ -104,7 +107,6 @@
 
 @media (max-width: 1430px) {
   .input-container button {
-    margin-left: 0.5rem;
     padding: 0.7rem 2rem;
   }
   .section-2 {
